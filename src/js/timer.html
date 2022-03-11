@@ -1,0 +1,27 @@
+<html>
+
+    <head></head>
+
+    <body>
+        <audio id='audioTrack' ontimeupdate='updateTrackTime(this)';>
+            Audio tag not supported in this browser</audio>
+          <script>
+          function updateTrackTime(track){
+            var currTimeDiv = document.getElementById('currentTime');
+            var durationDiv = document.getElementById('duration');
+          
+            var currTime = Math.floor(track.currentTime).toString(); 
+            var duration = Math.floor(track.duration).toString();
+          
+            currTimeDiv.innerHTML = formatSecondsAsTime(currTime);
+          
+            if (isNaN(duration)){
+              durationDiv.innerHTML = '00:00';
+            } 
+            else{
+              durationDiv.innerHTML = formatSecondsAsTime(duration);
+            }
+          }
+          </script
+    </body>
+</html>

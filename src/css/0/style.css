@@ -1,0 +1,418 @@
+body {
+    background-color:rgb(240, 239, 239);
+  }
+
+    /* #accordion  {
+        margin-top: 35px; 
+        max-width: 600px;
+} */
+
+#jumboTitel:hover {
+    text-decoration: none!important;
+}
+
+
+ #headerImg {
+    background-image: url(../img/header.jpg); 
+    /* background-size: 100%; */
+    background-size: cover;
+    color: #fff;
+    text-shadow: 3px 2px 8px #ce8909;
+    margin-bottom: 0;
+ }
+
+ .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 3px 4px #000000;
+ }
+
+
+ .sitePlaceholder {
+   min-height: 800px!important;
+
+ }
+
+.neuIco {
+   width: 30px;
+   height: auto;
+}
+
+
+
+ #preachHeader {
+     font-size: 1.2em;
+     font-weight: bold;
+     margin-bottom: 25px;
+     margin-left:18px;
+     width: 96%;
+ }
+
+ /* .horisontalInfos:hover {
+     background-color: rgb(248, 248, 248);
+ } */
+
+ .verticalInfos {
+     display: none;
+ }
+
+ .horisontalInfos div:first-of-type {
+    font-weight: 600;
+    font-size: 1.1rem;
+ }
+
+ .nichtAngegeben {
+     color: #bbb;
+ }
+
+ .videoDatum {
+     display: none;
+     text-align: center;
+     /* margin-bottom: 15px; */
+     font-weight: 600;
+ }
+
+ .predigerName {
+  text-align: left;
+  padding-left: 60px;
+}
+
+
+/* .youtubeThumbnailBox {
+  
+  overflow: hidden;
+  width: 100px;
+  height:80px;
+  margin-right:15px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border: 2px solid rgb(250, 246, 226);
+  border-radius: 2px;
+  padding: 5px;
+}
+
+ .youtubeThumbnails {
+  position: relative;
+  top: -27px;
+  left: -46px;
+  width: 225%;
+  height: 220%;
+ }
+
+  */
+
+
+
+  .cart-body > div > h3 {
+    text-align: center!important;
+    font-weight: bold;
+  }
+
+  #welcomeText {
+    text-align: left!important;
+}
+
+.dataSaved {
+	margin-bottom: 850px;
+}
+
+
+/* 
+  .card:last-of-type {
+    padding-bottom: 150px;
+  }  */
+
+  .contentBox {
+    margin-top: 35px;
+  }
+
+  .card {
+    margin-bottom:15px;
+
+  }
+
+  
+  .youtubeIco {
+    width: 22px;
+    height: auto;
+  }
+  
+
+  #img {
+    margin-top: 40px;
+  }
+  
+  .btn {
+    height: 100%;
+    width: 100%;
+  }
+
+  .subt {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    height: 10px;
+  }
+
+  footer {
+    background-color: #F8F9FA;
+    margin-top: 30px;
+    width: 100%;
+  } 
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+/* .btnEdit {
+  width: 150px!important;
+} */
+
+thead, tbody  {
+  width: 600px!important;
+}
+
+.columnName {
+  color:auto;
+}
+
+.namesInColumn {
+  text-align: left;
+}
+
+td:last-of-type{
+  text-align: right;
+}
+
+#preachersTable {
+  width: 70%;
+}
+
+/* card-text > container:first-of-type {
+  display: none;
+} */
+
+.editBtn,
+.delBtn,
+.saveBtn {
+  width:130px;
+}
+
+.neuBtn {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.tdLink {
+  width: 30px;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+}
+
+.btnLink {
+  display: inline;
+  padding: 4px 13px;
+  height: 12px;
+  margin-bottom: 5px!important;
+}
+
+label {
+  text-align: right;
+}
+
+.checkboxLabel {
+  text-align: left;
+}
+
+
+/* Placeholder colors */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    rgb(160, 160, 160)!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:     rgb(160, 160, 160)!important;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:     rgb(160, 160, 160)!important;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:     rgb(160, 160, 160)!important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:     rgb(160, 160, 160)!important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    rgb(172, 172, 172)!important;
+}
+
+
+
+
+/* .table {
+  margin-bottom: 60px;
+} */
+
+.tableTitle {
+  /* text-align: left; */
+  margin: 60px 0 40px 0;
+  /* margin-bottom: 25px;
+  margin-left: 13px; */
+}
+
+/* .tableTitle:first-of-type {
+  margin-top: 40px;
+} */
+
+.dataSaved,
+.dataNotSaved {
+  font-size: 1.5em;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+.dataSaved {
+  color: green;
+}
+
+.dataNotSaved {
+  color: red;
+}
+
+@media (max-width: 991px) {
+
+   .horisontalInfos div:first-of-type {
+    font-size: .95em;
+ }
+
+}
+
+
+
+  @media (max-width: 767px) {
+    
+    #preachHeader {
+        display: none;
+    }
+
+    .videoDatum {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .horisontalInfos {
+        display: none;
+    }
+
+    .verticalInfos {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        font-size: .9em;
+    }
+
+    .columnInfos {
+      padding: 0;
+        display: inline-block;
+        /* font-weight: bold; */
+        text-align: left;
+        color: #666;
+    }
+
+    .columnValues {
+        /* display: inline-block; */
+        padding: 0;
+        text-align: right;
+        float: right;
+    }
+
+    .verticalInfoSpan {
+      /* display: block;
+      height: 100%; */
+      color: red!important;
+      /* vertical-align: middle; */
+      /* line-height: 5.5; */
+
+      
+    }
+    .videoTitel {
+        font-size: .8em;
+    }
+
+    .form-group > label {
+      text-align: left;
+    }
+    
+  }
+
+  .card-header {
+    padding:0!important;
+    
+}
+
+.container {
+  padding: 6px;
+
+}
+
+
+ 
+  @media (max-width: 400px) {
+    .verticalInfos {
+       width: 100%;       
+    }
+
+    .card-header {
+        padding:0!important;
+
+    }
+
+    .columnInfos, .columnValues {
+        font-size: .85rem;
+        padding: 0;
+    }
+
+    .card-body {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
+
+  @media (max-width: 370px) {
+    #hauptTitel {
+      font-size: 2rem;
+    }
+
+    .container {
+      padding: 3px;
+   
+    }
+
+
+
+    
+}
+
+#key {
+  display:block;
+  position:absolute;
+  height: 50px;
+  width: 50px;
+  /* background-color:blue; */
+  right:0px;
+  top:1px;
+  
+}

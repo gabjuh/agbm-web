@@ -1,0 +1,31 @@
+body * {
+	color: #000;
+	background-color: #fff;
+	font-family: arial;
+}
+
+
+
+#jumboTitel {
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+
+
+#hauptTitel::after {
+	content=" - Mediathek";
+}
+
+.infoText {
+	display: none;
+}
+
+.navbar {
+	display: none;
+}
+
+ .sitePlaceholder {
+   min-height: 100%;
+
+ }
